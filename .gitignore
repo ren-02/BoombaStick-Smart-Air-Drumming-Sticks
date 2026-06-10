@@ -1,0 +1,40 @@
+# ==========================
+# OS & Editor Files
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ==========================
+# IDE & Editor Configs
+# ==========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+venv/
+env/
+
+# ==========================
+# Arduino Build Artifacts
+# ==========================
+*.elf
+*.hex
+*.bin
+*.map
+build/
